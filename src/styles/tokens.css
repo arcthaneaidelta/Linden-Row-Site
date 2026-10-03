@@ -1,0 +1,47 @@
+:root {
+  /* Warm paper luxury palette */
+  --bg: #F6F2EC;
+  --surface: #FBF9F5;
+  --surface-elevated: #FFFFFF;
+  --ink: #1E1B18;
+  --ink-2: #4A453F;
+  --ink-muted: #7C766D;
+  --border: #E2DBD0;
+  --border-strong: #C9C0B2;
+  --primary: #26332C;
+  --primary-hover: #1B251F;
+  --primary-active: #121A15;
+  --secondary: #E9E2D6;
+  --accent: #B5654A;
+  --accent-soft: #F0DDD3;
+  --success: #3F6B4F;
+  --warning: #B07A1F;
+  --error: #A63D32;
+  --info: #3E5F78;
+  --focus-ring: #3E5F78;
+
+  /* Under the hood dark annex */
+  --hood-bg: #16191A;
+  --hood-surface: #1F2324;
+  --hood-border: #2C3234;
+  --hood-text: #E6E2DA;
+  --hood-muted: #9A958B;
+  --hood-success: #7FB391;
+  --hood-warning: #D9A441;
+  --hood-error: #D97A6C;
+  --hood-info: #7FA6C4;
+  --hood-accent: #C9906F;
+
+  /* Durations & easings */
+  --dur-fast: 120ms;
+  --dur-med: 240ms;
+  --dur-slow: 480ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Layering */
+  --z-nav: 40;
+  --z-drawer: 60;
+  --z-modal: 80;
+  --z-toast: 100;
+}
